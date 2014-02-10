@@ -180,9 +180,12 @@
     </build>
     <distributionManagement>
         <snapshotRepository>
-            <id>sonatype-nexus-snapshots</id>
+            <id>snapshots</id>
+            <!--<name>libs-snapshot-local</name>-->
+            <!--<id>sonatype-nexus-snapshots</id>
             <name>Sonatype Nexus Snapshots</name>
-            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+            <url>https://oss.sonatype.org/content/repositories/snapshots</url>-->
+            <url>http://thaliartifactory.cloudapp.net/artifactory/libs-snapshot-local</url>
         </snapshotRepository>
         <repository>
             <id>sonatype-nexus-staging</id>
